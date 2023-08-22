@@ -8,18 +8,18 @@ Accurate sales forecasting is essential for e-commerce businesses to effectively
 ## Dataset
 The dataset used for this project consists of historical sales data containing the following attributes:
 
-**InvoiceNo**: Invoice number that consists 6 digits. If this code starts with letter 'C', it indicates a cancellation.
-**StockCode**: Product code that consists 5 digits.
-**Description**: Product name.
-**Quantity**: The quantities of each product per transaction.
-**InvoiceDate**: Represents the day and time when each transaction was generated.
-**UnitPrice**: Product price per unit.
-**CustomerID**: Customer number that consists 5 digits. Each customer has a unique customer ID.
-**Country**: Name of the country where each customer resides.
+- **InvoiceNo**: Invoice number that consists 6 digits. If this code starts with letter 'C', it indicates a cancellation.
+- **StockCode**: Product code that consists 5 digits.
+- **Description**: Product name.
+- **Quantity**: The quantities of each product per transaction
+- **InvoiceDate**: Represents the day and time when each transaction was generated.
+- **UnitPrice**: Product price per unit.
+- **CustomerID**: Customer number that consists 5 digits. Each customer has a unique customer ID.
+- **Country**: Name of the country where each customer resides.
 The dataset is available in the data/ directory and is named data.csv.
 
 ## Project Structure
-
+```
 sales-forecast/
 │
 ├── data/
@@ -40,13 +40,15 @@ sales-forecast/
 ├── Pipfile
 │
 └── Pipfile.lock
-**data/**: Contains the dataset used for the project.
-**notebooks/**: Jupyter notebook for data exploration,model training, experiment tracking and model registry.
-**src/**: Source code for data preparation, prediction and testing.
-**README.md**: You are here!
-**Dockerfile**: instructions for building a Docker image.
-**Pipfile**: Required packages.
-**Pipfile.lock**: Dependencies for required packeges.
+```
+
+- **data/**: Contains the dataset used for the project.
+- **notebooks/**: Jupyter notebook for data exploration,model training, experiment tracking and model registry.
+- **src/**: Source code for data preparation, prediction and testing.
+- **README.md**: You are here!
+- **Dockerfile**: instructions for building a Docker image.
+- **Pipfile**: Required packages.
+- **Pipfile.lock**: Dependencies for required packeges.
 
 ## Installation
 
