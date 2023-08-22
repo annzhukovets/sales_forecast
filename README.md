@@ -97,9 +97,9 @@ The performance of the model is evaluated using appropriate metric such as Root 
 The results of the sales forecasting model are documented in the notebooks/sales_forecast_EDA.ipynb notebook. Visualizations and performance metrics are provided to assess the accuracy of the predictions.
 
 ## Future Enhancements
-Set workflow orchestration
-Establish model monitoring
-Write unit and integration tests
-Implement more advanced time-series forecasting techniques.
-Explore the impact of external factors (e.g., promotions, holidays) on sales.
-Develop a web interface for users to input stock codes and obtain sales forecasts.
+- Set workflow orchestration
+- Establish model monitoring
+- Write unit and integration tests
+- Implement more advanced time-series forecasting techniques.
+- Explore the impact of external factors (e.g., promotions, holidays) on sales.
+- Develop a web interface for users to input stock codes and obtain sales forecasts.
