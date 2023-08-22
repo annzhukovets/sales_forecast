@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+lightgbm = "*"
+gunicorn = "*"
+mlflow = "*"
+boto3 = "*"
+fsspec = "*"
+s3fs = "*"
+
+[dev-packages]
+numpy = "*"
+pandas = "*"
+seaborn = "*"
+optuna = "*"
+matplotlib = "*"
+plotly = "*"
+ipykernel = "*"
+scikit-learn = "*"
+nbformat = "*"
+psycopg2-binary = "*"
+fsspec = "*"
+s3fs = "*"
+
+[requires]
+python_version = "3.10"
